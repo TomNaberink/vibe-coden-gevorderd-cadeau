@@ -25,7 +25,7 @@
 ## Na het aanmaken van de GitHub-repository
 
 - [x] De lokale `main`-branch is gepusht.
-- [ ] Controleer of de GitHub Actions-workflow groen wordt.
+- [x] De GitHub Actions-workflow is groen gecontroleerd.
 - [x] In **Settings** staat de optie **Template repository** aan.
 - [ ] Maak vanuit **Use this template** één nieuwe testrepository.
 - [ ] Controleer in die testrepository de volledige route uit `START-HIER.md`.
