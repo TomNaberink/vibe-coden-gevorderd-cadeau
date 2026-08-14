@@ -20,13 +20,13 @@
 - [x] De MIT-licentie bevat de bevestigde rechthebbende in de copyrightregel.
 - [x] De publicatie- en hergebruiksrechten van `public/gift/portfolio-reveal.png` zijn bevestigd.
 - [x] De publieke Git-auteursmetadata gebruikt het GitHub-noreply-adres van `TomNaberink`.
-- [ ] Kies de uiteindelijke GitHub-organisatie, repositorynaam en zichtbaarheid.
+- [x] De GitHub-organisatie, repositorynaam en openbare zichtbaarheid zijn vastgelegd.
 
 ## Na het aanmaken van de GitHub-repository
 
-- [ ] Push de lokale `main`-branch.
+- [x] De lokale `main`-branch is gepusht.
 - [ ] Controleer of de GitHub Actions-workflow groen wordt.
-- [ ] Zet in **Settings** de optie **Template repository** aan.
+- [x] In **Settings** staat de optie **Template repository** aan.
 - [ ] Maak vanuit **Use this template** één nieuwe testrepository.
 - [ ] Controleer in die testrepository de volledige route uit `START-HIER.md`.
 - [ ] Controleer een eventuele deployment pas na aparte toestemming.
