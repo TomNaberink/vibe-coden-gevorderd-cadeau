@@ -1,0 +1,33 @@
+{
+  "name": "vibe-coden-gevorderd-cadeau",
+  "version": "0.1.0",
+  "description": "Een lege Onderwijsmaker-portfolio-template voor cursisten van Vibe Coden Gevorderd.",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1 -p 4173",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "tsx --test src/lib/*.test.ts",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.9",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "eslint": "9.39.3",
+    "eslint-config-next": "16.3.0",
+    "tsx": "4.23.12",
+    "typescript": "5.9.3"
+  }
+}
